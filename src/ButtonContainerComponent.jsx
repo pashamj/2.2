@@ -3,7 +3,7 @@ import styles from './App.module.css';
 export function ButtonContainerComponent () {
     const [value, getValue] = useState('')
     const onClick = (props) => {
-       getValue(prompt('123'))
+       getValue(prompt('1231'))
 
     }
 
